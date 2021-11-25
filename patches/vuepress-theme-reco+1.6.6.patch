@@ -1,0 +1,39 @@
+diff --git a/node_modules/vuepress-theme-reco/components/Footer.vue b/node_modules/vuepress-theme-reco/components/Footer.vue
+index 76b93f7..8e61fe5 100644
+--- a/node_modules/vuepress-theme-reco/components/Footer.vue
++++ b/node_modules/vuepress-theme-reco/components/Footer.vue
+@@ -1,9 +1,5 @@
+ <template>
+   <div class="footer-wrapper">
+-    <span>
+-      <reco-icon icon="reco-theme" />
+-      <a target="blank" href="https://vuepress-theme-reco.recoluan.com">{{`vuepress-theme-reco@${version}`}}</a>
+-    </span>
+     <span v-if="$themeConfig.record">
+       <reco-icon icon="reco-beian" />
+       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
+diff --git a/node_modules/vuepress-theme-reco/components/Mode/ModePicker.vue b/node_modules/vuepress-theme-reco/components/Mode/ModePicker.vue
+index 9a50728..f12ead9 100644
+--- a/node_modules/vuepress-theme-reco/components/Mode/ModePicker.vue
++++ b/node_modules/vuepress-theme-reco/components/Mode/ModePicker.vue
+@@ -1,6 +1,6 @@
+ <template>
+   <div class="mode-options">
+-    <h4 class="title">Choose mode</h4>
++    <h4 class="title">选择模式</h4>
+     <ul class="color-mode-options">
+       <li
+         v-for="(mode, index) in modeOptions"
+@@ -20,9 +20,9 @@ export default {
+   data () {
+     return {
+       modeOptions: [
+-        { mode: 'dark', title: 'dark' },
+-        { mode: 'auto', title: 'auto' },
+-        { mode: 'light', title: 'light' }
++        { mode: 'dark', title: '深色' },
++        { mode: 'auto', title: '自动' },
++        { mode: 'light', title: '浅色' }
+       ],
+       currentMode: 'auto'
+     }
