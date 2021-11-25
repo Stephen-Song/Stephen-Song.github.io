@@ -91,3 +91,11 @@ jobs:
         connect_timeout: 10s
         local: './public/*'
         remote: /www/server/public
+      # 2、部署到 GitHub Pages
+    - name: Deploy-GitHub
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        REPOSITORY_NAME: duochizhacai/duochizhacai.github.io
+        BRANCH: main
+        FOLDER: public
