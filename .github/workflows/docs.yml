@@ -40,5 +40,5 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         REPOSITORY_NAME: duochizhacai/duochizhacai.github.io
-        BRANCH: ghpage
+        BRANCH: main:ghpage
         FOLDER: docs/.vuepress/dist
