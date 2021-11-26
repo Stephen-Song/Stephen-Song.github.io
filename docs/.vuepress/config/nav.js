@@ -2,7 +2,7 @@ module.exports = [
   { text: "首页", link: "/" },
   {
     text: "知识库",
-    link: "/pages/3f741b/",
+    link: "/pages/56881f/",
     items: [
       {
         text: "HTML",
@@ -10,7 +10,7 @@ module.exports = [
       },
       {
         text: "CSS",
-        link: "/pages/3f741b",
+        link: "/pages/c0e7f0/",
       },
       {
         text: "JavaScript",
