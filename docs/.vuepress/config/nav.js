@@ -14,7 +14,7 @@ module.exports = [
       },
       {
         text: "JavaScript",
-        link: "/page/3f741b",
+        link: "/pages/787250/",
       },
       {
         text: "Vue",
