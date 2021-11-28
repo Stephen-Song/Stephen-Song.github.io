@@ -43,6 +43,10 @@ module.exports = [
     ],
   },
   {
+    text: "手写系列",
+    link: "/pages/ba01c4/",
+  },
+  {
     text: "算法",
     link: "/page/3f741b",
     items: [
