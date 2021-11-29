@@ -35,10 +35,10 @@ jobs:
         local: './docs/.vuepress/dist/*'
         remote: /www/server/public
       # 2、部署到 GitHub Pages
-    - name: Deploy-GitHub
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        REPOSITORY_NAME: duochizhacai/duochizhacai.github.io
-        BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
+    # - name: Deploy-GitHub
+    #   uses: JamesIves/github-pages-deploy-action@releases/v3
+    #   with:
+    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #     REPOSITORY_NAME: duochizhacai/duochizhacai.github.io
+    #     BRANCH: gh-pages
+    #     FOLDER: docs/.vuepress/dist
