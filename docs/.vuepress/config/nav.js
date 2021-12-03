@@ -84,4 +84,20 @@ module.exports = [
       },
     ],
   },
+  {
+    text: "GitHub",
+    link: "https://github.com/duochizhacai",
+    items: [
+      {
+        text: "GitHub",
+        iconClass: "icon-github",
+        link: "https://github.com/duochizhacai",
+      },
+      {
+        text: "JueJin",
+        iconClass: "icon-juejin",
+        link: "https://juejin.cn/user/1249486902410744",
+      },
+    ],
+  },
 ];
