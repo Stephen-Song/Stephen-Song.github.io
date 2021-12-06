@@ -94,8 +94,8 @@ module.exports = {
     },
     footer: {
       // 页脚信息
-      createYear: 2019, // 博客创建年份
-      copyrightInfo: "Crucials Song | MIT License", // 博客版权信息，支持a标签
+      createYear: 2021, // 博客创建年份
+      copyrightInfo: "<a href='https://beian.miit.gov.cn'>粤ICP备2021165371号</a>", // 博客版权信息，支持a标签
     },
     // htmlModules,
   },
