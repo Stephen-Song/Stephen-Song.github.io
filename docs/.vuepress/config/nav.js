@@ -30,11 +30,11 @@ module.exports = [
       },
       {
         text: "浏览器原理",
-        link: "/page/3f741b",
+        link: "/pages/7c5778/",
       },
       {
         text: "性能优化",
-        link: "/page/3f741b",
+        link: "/pages/f15087/",
       },
       {
         text: "NodeJS",

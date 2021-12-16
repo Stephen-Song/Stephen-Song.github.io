@@ -4,12 +4,18 @@ const htmlModules = require("./config/htmlModules.js");
 
 module.exports = {
   title: "Crucials",
-  description: "一个基于VuePress的 知识管理&博客 主题",
+  description: "🚀一个前端程序员小白的博客🌹",
   base, // '/<仓库名>/'， 默认'/'
   head: [
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ["link", { rel: "icon", href: "/img/favicon.ico" }], //favicons，资源放在public文件夹
-    ["meta", { name: "keywords", content: "vuepress,theme,blog,vdoing" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "blog,crucials,frontend,前端,小宋爱睡觉,博客,duochizhacai",
+      },
+    ],
     ["meta", { name: "theme-color", content: "#60ad81" }], // 移动浏览器主题颜色
     [
       "script",
@@ -95,7 +101,8 @@ module.exports = {
     footer: {
       // 页脚信息
       createYear: 2021, // 博客创建年份
-      copyrightInfo: "<a href='https://beian.miit.gov.cn'>粤ICP备2021165371号</a>", // 博客版权信息，支持a标签
+      copyrightInfo:
+        "<a href='https://beian.miit.gov.cn'>粤ICP备2021165371号</a>", // 博客版权信息，支持a标签
     },
     // htmlModules,
   },
@@ -117,13 +124,13 @@ module.exports = {
             frontUrl: "https://github.com/search?q=", // 搜索链接的前面部分
             behindUrl: "", // 搜索链接的后面部分，可选，默认 ''
           },
+          // {
+          //   title: "在npm中搜索",
+          //   frontUrl: "https://www.npmjs.com/search?q=",
+          // },
           {
-            title: "在npm中搜索",
-            frontUrl: "https://www.npmjs.com/search?q=",
-          },
-          {
-            title: "在Bing中搜索",
-            frontUrl: "https://cn.bing.com/search?q=",
+            title: "在Google中搜索",
+            frontUrl: "https://google.com/search?q=",
           },
         ],
       },
