@@ -56,7 +56,7 @@ module.exports = [
       },
       {
         text: "数组",
-        link: "/page/3f741b",
+        link: "/pages/251490/",
       },
       {
         text: "栈",
