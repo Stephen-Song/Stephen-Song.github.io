@@ -52,7 +52,7 @@ module.exports = [
     items: [
       {
         text: "字符串",
-        link: "/page/3f741b",
+        link: "/page/3f741b/",
       },
       {
         text: "数组",
@@ -60,11 +60,11 @@ module.exports = [
       },
       {
         text: "栈",
-        link: "/page/3f741b",
+        link: "/pages/5dee6b/",
       },
       {
         text: "链表",
-        link: "/page/3f741b",
+        link: "/pages/fc9745/",
       },
       {
         text: "队列",

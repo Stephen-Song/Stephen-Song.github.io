@@ -3,7 +3,7 @@ const base = require("../../base.js");
 const htmlModules = require("./config/htmlModules.js");
 
 module.exports = {
-  title: "Crucials",
+  title: "小宋爱睡觉",
   description: "🚀一个前端程序员小白的博客🌹",
   base, // '/<仓库名>/'， 默认'/'
   head: [
