@@ -68,7 +68,7 @@ module.exports = [
       },
       {
         text: "队列",
-        link: "/page/3f741b",
+        link: "/pages/316b1a/",
       },
       {
         text: "树",
