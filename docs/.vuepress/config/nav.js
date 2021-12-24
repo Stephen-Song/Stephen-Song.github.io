@@ -72,16 +72,16 @@ module.exports = [
       },
       {
         text: "树",
-        link: "/page/3f741b",
+        link: "/pages/ad5191/",
       },
       {
         text: "动态规划",
         link: "/page/3f741b",
       },
-      {
-        text: "回溯",
-        link: "/page/3f741b",
-      },
+      // {
+      //   text: "回溯",
+      //   link: "/page/3f741b",
+      // },
     ],
   },
   {
