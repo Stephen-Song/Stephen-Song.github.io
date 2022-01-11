@@ -37,8 +37,8 @@ module.exports = [
         link: "/pages/f15087/",
       },
       {
-        text: "NodeJS",
-        link: "/page/3f741b",
+        text: "设计模式",
+        link: "/pages/e3cba5/",
       },
     ],
   },
