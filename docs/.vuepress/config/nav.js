@@ -52,7 +52,7 @@ module.exports = [
     items: [
       {
         text: "字符串",
-        link: "/page/3f741b/",
+        link: "/pages/8ac126/",
       },
       {
         text: "数组",
@@ -76,12 +76,12 @@ module.exports = [
       },
       {
         text: "动态规划",
-        link: "/page/3f741b",
+        link: "/pages/6aee18/",
       },
-      // {
-      //   text: "回溯",
-      //   link: "/page/3f741b",
-      // },
+      {
+        text: "排序算法",
+        link: "/pages/78e948/",
+      },
     ],
   },
   {
