@@ -30,7 +30,7 @@ module.exports = [
       },
       {
         text: "浏览器原理",
-        link: "/pages/7c5778/",
+        link: "/pages/b8bd46/",
       },
       {
         text: "性能优化",

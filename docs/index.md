@@ -10,8 +10,8 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
   - title: 知识管理
     details: 将前端的零零碎碎结构化、碎片化、体系化，让知识不再模模糊糊
-  - title: 未来目标
-    details: 每天三点一线 吃饭 睡觉 写码 希望能成功水进大厂
+  - title: 人生格言
+    details: 人生有两条路，一条是错误的路，另一条是难走的路💪
   - title: 沉浸算法
     details: 💪每天搞两道算法题，不久的将来感谢努力过的自己！！！
 
