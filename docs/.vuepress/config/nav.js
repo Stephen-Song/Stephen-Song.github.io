@@ -20,10 +20,10 @@ module.exports = [
         text: "Vue",
         link: "/pages/f0a671/",
       },
-      {
-        text: "React",
-        link: "/page/3f741b",
-      },
+      // {
+      //   text: "React",
+      //   link: "/page/3f741b",
+      // },
       {
         text: "计算机网络",
         link: "/pages/2448f7/",
@@ -48,7 +48,7 @@ module.exports = [
   },
   {
     text: "算法",
-    link: "/page/3f741b",
+    link: "/page/ad5191/",
     items: [
       {
         text: "字符串",
