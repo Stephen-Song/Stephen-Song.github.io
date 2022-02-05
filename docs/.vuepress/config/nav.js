@@ -48,7 +48,7 @@ module.exports = [
   },
   {
     text: "算法",
-    link: "/page/ad5191/",
+    link: "/pages/ad5191/",
     items: [
       {
         text: "字符串",
