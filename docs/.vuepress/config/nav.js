@@ -59,16 +59,8 @@ module.exports = [
         link: "/pages/251490/",
       },
       {
-        text: "栈",
-        link: "/pages/5dee6b/",
-      },
-      {
         text: "链表",
         link: "/pages/fc9745/",
-      },
-      {
-        text: "队列",
-        link: "/pages/316b1a/",
       },
       {
         text: "树",
