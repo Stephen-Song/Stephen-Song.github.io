@@ -22,7 +22,7 @@ module.exports = [
       },
       {
         text: "React",
-        link: "/page/3f741b",
+        link: "/pages/b7238f/",
       },
       {
         text: "计算机网络",
