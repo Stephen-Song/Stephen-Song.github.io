@@ -20,10 +20,10 @@ module.exports = [
         text: "Vue",
         link: "/pages/f0a671/",
       },
-      // {
-      //   text: "React",
-      //   link: "/page/3f741b",
-      // },
+      {
+        text: "React",
+        link: "/page/3f741b",
+      },
       {
         text: "计算机网络",
         link: "/pages/2448f7/",
